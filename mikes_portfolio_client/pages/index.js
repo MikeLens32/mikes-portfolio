@@ -62,50 +62,59 @@ export default function Home() {
             </p>
           </div>
           <div className='grid lg:grid-cols-3 gap-10'>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 cursor-pointer'>
-              <Image className='mx-auto rounded' src={phaseOne} width={500} height={500}/>
-              <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>
-                Phase One Project
-              </h3>
-              <p className='dark:text-white'>
-                This is my Phase One Project for Flatiron School and after learing HTML we created a page that had at least two different listening commands. The first is the warning modal that pop-ups on the login, the second is when clicking on the Avenger character, and the third comes from Locate Avenger button. That button triggers the API that fetches a random location for the where Avanger is currently.
-              </p>
-              <h4 className=' py-4 text-teal-600'>
-                Tools And Languages Used
-              </h4>
-              <p className='text-grey-800 py-1 dark:text-white'>HTML</p>
-              <p className='text-grey-800 py-1 dark:text-white'>VS Code</p>
-              <p className='text-grey-800 py-1 dark:text-white'>Adobe Photoshop</p>
+            <a href="https://drive.google.com/file/d/1LYXXC-CTGcxSKUbE2eGdahhAbQsVH1zu/view?usp=sharing">
+              <div className='text-center shadow-lg p-10 rounded-xl my-10 cursor-pointer'>
+                <Image className='mx-auto rounded' src={phaseOne} width={500} height={500}/>
+                <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>
+                  Phase One Project
+                </h3>
+                <p className='dark:text-white'>
+                  This is my Phase One Project for Flatiron School and after learing HTML we created a page that had at least two different listening commands. The first is the warning modal that pop-ups on the login, the second is when clicking on the Avenger character, and the third comes from Locate Avenger button. That button triggers the API that fetches a random location for the where Avanger is currently.
+                </p>
+                <h4 className=' py-4 text-teal-600'>
+                  Tools And Languages Used
+                </h4>
+                <p className='text-grey-800 py-1 dark:text-white'>HTML</p>
+                <p className='text-grey-800 py-1 dark:text-white'>VS Code</p>
+                <p className='text-grey-800 py-1 dark:text-white'>Adobe Photoshop</p>
+              </div>
+            </a>
+          
+            <a href="https://drive.google.com/file/d/1NkxWBLcgQ7Zr5sW06eBknlenw1V7JQt8/view?usp=sharing">
+              <div className='text-center shadow-lg p-10 rounded-xl my-10 cursor-pointer'>
+                <Image className='mx-auto rounded' src={phaseTwo} width={500} height={500}/>
+                <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>
+                  Phase Two Project
+                </h3>
+                <p className='dark:text-white'>
+                  This is my Phase Two Project for Flatiron School and ironically created a portfolio page with bookings capabilities. By creating slides of my photography work, a comment section for the home page, and make at least three client side routes to complete my requirements. The second and third page has Email JS triggered by the form submit button. The information is then sent to my email for bookings with the user's information.
+                </p>
+                <h4 className=' py-4 text-teal-600'>
+                  Tools And Languages Used
+                </h4>
+                <p className='text-grey-800 py-1 dark:text-white'>Email JS</p>
+                <p className='text-grey-800 py-1 dark:text-white'>React</p>
+                <p className='text-grey-800 py-1 dark:text-white'>VS Code</p>
+              </div>
+            </a>
+            <a href="https://drive.google.com/file/d/1pGbfC_YvX0W9ggB6g-d1fY9IlfwXGgJG/view?usp=sharing">
+              <div className='text-center shadow-lg p-10 rounded-xl my-10 cursor-pointer'>
+                <Image className='mx-auto rounded' src={phaseForth} width={500} height={500}/>
+                <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>
+                  Phase Four Project
+                </h3>
+                <p className='dark:text-white'>
+                  This is my Phase Four Project for Flatiron School, where I wanted to create a project that mixed fantasy league, and anime together. I used React for my frontend/client side and used Ruby on Rails for my backend to organize my data. With using context to clean up my code for logging in and joining leagues with your friends, user could make leagues, having full CRUD over the league or just play in a league they were invited to.
+                </p>
+                <h4 className=' py-4 text-teal-600'>
+                  Tools And Languages Used
+                </h4>
+                <p className='text-grey-800 py-1 dark:text-white'>React</p>
+                <p className='text-grey-800 py-1 dark:text-white'>Ruby on Rails</p>
+                <p className='text-grey-800 py-1 dark:text-white'>VS Code</p>
             </div>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 cursor-pointer'>
-              <Image className='mx-auto rounded' src={phaseTwo} width={500} height={500}/>
-              <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>
-                Phase Two Project
-              </h3>
-              <p className='dark:text-white'>
-                This is my Phase Two Project for Flatiron School and ironically created a portfolio page with bookings capabilities. By creating slides of my photography work, a comment section for the home page, and make at least three client side routes to complete my requirements. The second and third page has Email JS triggered by the form submit button. The information is then sent to my email for bookings with the user's information.
-              </p>
-              <h4 className=' py-4 text-teal-600'>
-                Tools And Languages Used
-              </h4>
-              <p className='text-grey-800 py-1 dark:text-white'>Email JS</p>
-              <p className='text-grey-800 py-1 dark:text-white'>React</p>
-              <p className='text-grey-800 py-1 dark:text-white'>VS Code</p>
-            </div><div className='text-center shadow-lg p-10 rounded-xl my-10 cursor-pointer'>
-              <Image className='mx-auto rounded' src={phaseForth} width={500} height={500}/>
-              <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>
-                Phase Four Project
-              </h3>
-              <p className='dark:text-white'>
-                This is my Phase Four Project for Flatiron School, where I wanted to create a project that mixed fantasy league, and anime together. I used React for my frontend/client side and used Ruby on Rails for my backend to organize my data. With using context to clean up my code for logging in and joining leagues with your friends, user could make leagues, having full CRUD over the league or just play in a league they were invited to.
-              </p>
-              <h4 className=' py-4 text-teal-600'>
-                Tools And Languages Used
-              </h4>
-              <p className='text-grey-800 py-1 dark:text-white'>React</p>
-              <p className='text-grey-800 py-1 dark:text-white'>Ruby on Rails</p>
-              <p className='text-grey-800 py-1 dark:text-white'>VS Code</p>
-            </div>
+            </a>
+            
           </div>
         </section>
         <section>
